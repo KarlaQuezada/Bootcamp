@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Exercise</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">First Name:
+                <input type="text" name="name" id="name" placeholder="Name" required>
+            </label>
+            <label for="lastname">Last Name:
+                <input type="text" name="lastname" id="lastname" placeholder="Last name" required>
+            </label>
+        </div>
+
+        <div>
+            <label for="males">Male
+                <input type="radio" name="gender" id="males" value="male">
+            </label>
+            <label for="females">Female
+                <input type="radio" name="gender" id="females" value="female">
+            </label>
+            <label for="others">Other
+                <input type="radio" name="gender" id="others" value="other">
+            </label>
+        </div>
+
+        <div>
+            <label for="email">Email:
+                <input type="email" name="email" id="email" placeholder="your email" required>
+            </label>
+            <label for="password">Password:
+                <input type="password" name="password" id="password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters">
+            </label>
+        </div>
+
+        <div>
+            <label>Birthday:
+                <select name="Month" id="">
+                    <option>Day</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                    <option>Mar</option>
+                </select>
+                <select name="Day" id="">
+                    <option>Month</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <select name="Year" id="">
+                    <option>Year</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                </select>
+            </label>
+        </div>
+
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" name="terms" id="checkbox">
+        </div>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

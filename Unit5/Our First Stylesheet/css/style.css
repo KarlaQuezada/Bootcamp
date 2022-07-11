@@ -1,5 +1,9 @@
 h1{
-    color: rgba(0, 200, 100, 0.2);
+    color: rgba(0, 200, 100, 0.8);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 2px solid rgb(255, 100, 80);
 }
 
 li{
@@ -8,4 +12,8 @@ li{
 
 h4{
     color: #54206E;
+}
+
+body{
+    background: pink;
 }

@@ -1,0 +1,19 @@
+body{
+    padding-top: 70px;
+  }
+  
+  .jumbotron{
+    color: #2C3E50;
+  }
+  
+  .bg-light{
+    background-color: #ECF0F1 !important;
+  }
+  
+  .navbar{
+    background-color: #2C3E50;
+  }
+  
+  .navbar-dark .navbar-nav>li>a{
+    color: white;
+  }

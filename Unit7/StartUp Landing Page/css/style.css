@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: white !important;
+}
+
+#content{
+    text-align: center !important;
+    padding-top: 25%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+                0px 8px 13px rgba(0, 0, 0, 0.1),
+                0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-weight: 700 !important;
+    font-size: 5em !important;
+}
+
+hr{
+    width: 400px;
+    border-top: 1px solid #F8F8F8 !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2) !important;
+    margin: auto !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}

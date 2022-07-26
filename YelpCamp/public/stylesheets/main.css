@@ -1,0 +1,13 @@
+.figure img{
+    width: 100%;
+}
+
+.figure .figure-caption{
+    padding: 9px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}

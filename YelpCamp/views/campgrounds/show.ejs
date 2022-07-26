@@ -17,6 +17,7 @@
                     <h4>$9.00/night</h4>
                 </div>
                 <p><%= campground.description %></p>
+                <p><em>Submitted By: <%= campground.author.username %></em></p>
             </div>
             <div class="card card-body bg-light">
                 <div class="text-end">
@@ -27,7 +28,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div style="display: flex; justify-content: space-between;">
-                                <strong><%= comment.author %></strong>
+                                <strong><%= comment.author.username %></strong>
                                 <span>10 days ago</span>
                             </div>
                             <p><%= comment.text %></p>

@@ -4,11 +4,10 @@
             <h1 style="text-align: center;">Add new comment to <%= campground.name %> </h1>
             <div style="width: 30%; margin: 25px auto;">
                 <form action="/campgrounds/<%= campground._id %>/comments " method="POST" class="d-grid gap-2">
-                    <input class="form-control" type="text" placeholder="Author" name="comment[author]">
                     <input class="form-control" type="text" placeholder="Text" name="comment[text]">
                     <button class="btn btn-lg btn-primary btn-block">Submit</button>
                 </form>
-                <a style="text-decoration: none;" href="/campgrounds">Go Back</a>
+                <a href="/campgrounds">Go Back</a>
             </div>
         </div>
     </div>
